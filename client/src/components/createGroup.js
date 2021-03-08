@@ -24,7 +24,7 @@ export default function CreateGroup() {
         .then(doc=>{
             setMember(doc.data.number)
             if(member===4){
-                history.push('/')
+                history.push('/game')
             }
         })
         .catch(err=>{console.log(err)})
