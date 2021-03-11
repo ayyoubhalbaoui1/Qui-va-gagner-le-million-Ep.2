@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body{
+	margin:0;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+.line{
+  height: 426px;
+  width: .3px;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.forms-container, .group-container{
+  height: 800px;
+  width: 1500px;
+  background-color: rgba(19, 110, 163, 0.7);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -750px;
+  margin-top: -400px;
+
+}
+.logo{
+  position: absolute;
+    height: 120px;
+    width: auto;
+    top: -66px;
+}
+
+.forms-container .title{
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: Times, Times New Roman, Georgia, serif;
+  color: white;
+
+}
+
+.login-form form{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+
+}
+
+.login-form form button{
+  margin-top: 20px;
+}
+
+.forms-container .single-form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+
+
+}
+
+.create-grp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-btn{
+  height : 70px;
+  width: 200px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  border-radius: 15px;
+  border: white solid 5px;
+  outline: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 50px;
+}
+
+.create-btn:hover{
+  background-color: rgba(19, 110, 163, 0.7);
+}
+
+.create-grp img{
+  height: 150px;
+  width: auto;
+  margin-bottom: 50px;
+}
+
+.lobby-container .title{
+  font-size: 100px;
+  font-weight: bolder;
+  font-family: Times, Times New Roman, Georgia, serif;
+  color: white;
+}
+
+.grp-code-title{
+  font-size: 70px;
+  font-weight: bolder;
+  font-family: Times, Times New Roman, Georgia, serif;
+  color: #fff;
+}
+
+.lobby-container{
+  height: 800px;
+  width: 1500px;
+  background-color: rgba(19, 110, 163, 0.7);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -750px;
+  margin-top: -400px;
+}
+
+.lobby-container h3{
+  color: white;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.single-particip-card img {
+  height : 70px;
+  width: auto;
+  border-radius: 50%;
+  border: white solid 5px;
+  margin-right: 20px;
+}
+
+.single-particip-card{
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: monospace;
+}
+
+.participants-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.admin-container,.questions-container,.admin-particip-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-container h1{
+  font-size: 40px;
+}
+.questions-container h1{
+  font-size: 40px;
+}
+.admin-particip-container h1{
+  font-size: 40px;
+}
+
+.add-admin-form form{
+  display: flex;
+  flex-direction: column;
+}
+
+.add-question-form form{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game-container{
+  font-family: 'MuseoModerno', cursive;
+  color: white;
+  height: 800px;
+  width: 1500px;
+  background-color: rgba(19, 110, 163, 0.7);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -750px;
+  margin-top: -400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-container h1{
+  font-size: 80px;
+}
+
+.game-container p{
+  font-size: 30px;
+}
+
+.winner-container{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./127070.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Exo', sans-serif;
+  position: relative;
+
+}
+
+.winner-container h1{
+  position: absolute;
+  top: 0;
+  margin-top: 150px;
+  font-size : 60px;
+  color: white;
+
+}
+.winner-container h3{
+ 
+  font-size : 20px;
+  color: white;
+
+}
+
+
+
+.winner-cards img {
+  height : 70px;
+  width: auto;
+  border-radius: 50%;
+  border: white solid 5px;
+  margin-right: 20px;
+}
+
+.winner-cards{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.App {
+  width: 128%;
+}

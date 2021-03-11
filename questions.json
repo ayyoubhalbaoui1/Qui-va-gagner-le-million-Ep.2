@@ -1,0 +1,181 @@
+
+[
+  {
+    "answer": "Fifteen",
+    "false_choices": [
+      "Thirty",
+      "Twenty Four",
+      "Forty"
+    ],
+    "quest": "How many degrees does the earth rotate each hour",
+    "points": 10
+  },
+  {
+   
+    "answer": "Clove ",
+    "false_choices": [
+      "Husk",
+      "Kernel",
+      "Nibbet"
+    ],
+    "quest": "What is a segment of garlic called?",
+    "points": 10
+  },
+  {
+    
+    "answer": "Grouse",
+    "false_choices": [
+      "Deer",
+      "Fox",
+      "Pheasant"
+    ],
+    "quest": "Which Shooting Season Begins On The Glorious Twelfth?",
+    "points": 10
+  },
+  {
+   
+    "answer": "Eros",
+    "false_choices": [
+      "Hermes",
+      "Dionysus",
+      "Themis"
+    ],
+    "quest": "Who is the Greek equivalent of the Roman god Cupid?",
+    "points": 10
+  }, {
+    
+    "answer": "Don't You Want Me Baby",
+    "false_choices": [
+      "Never Tear Us Apart",
+      "What is Love",
+      "Slave To The Rhythm"
+    ],
+    "quest": "What Song Features The Lyric \"I Was Working As A Waitress In A Cocktail Bar\"?",
+    "points": 10
+  },
+  {
+    
+    "answer": "York",
+    "false_choices": [
+      "London",
+      "Cardiff",
+      "Edinburgh"
+    
+    ],
+    "quest": "Which city used to be called Eboracum?",
+    "points": 10
+  },
+  {
+    
+    "answer": "Jingle All The Way",
+    "false_choices": [
+      "The Santa Clause",
+      "Miracle on 34th Street",
+      "Bad Santa"
+    ],
+    "quest": "Which Popular Christmas Movie Featured A Must Have Toy Called 'Turbo Man''",
+    "points": 10
+  },
+  {
+  
+    "answer": "Nine",
+    "false_choices": [
+      "One",
+      "Two",
+      "Six"
+    ],
+    "quest": "How Many Crusades Were There?",
+    "points": 10
+  },
+  {
+    
+    "answer": "Blue ",
+    "false_choices": [
+      "Yellow",
+      "Red",
+      "White"
+    ],
+    "quest": "What Is The Colour Of The Cross On The Finish Flag?",
+    "points": 10
+  },
+  {
+    
+    "answer": "Smile",
+    "false_choices": [
+      "Grin",
+      "Laugh",
+      "Cry"
+    ],
+    "quest": "Which legendary Beach boys album was never completed?",
+    "points": 10
+  },
+  {
+    
+    "answer": "Beijing",
+    "false_choices": [
+      "Hong Kong",
+      "Shanghai",
+      "Guangzhou"
+    ],
+    "quest": "'Khanbaliq' is the old name of which city?",
+    "points": 10
+  },
+  {
+  
+    "answer": "Axel Foley",
+    "false_choices": [
+      "Johnny West",
+      "Marcus Steel",
+      "Jarvis Hansen"
+    ],
+    "quest": "What was the name of Eddie Murphy's character in Beverly Hills Cop?",
+    "points": 10
+  },
+  {
+    
+    "answer": "Prime Minister",
+    "false_choices": [
+      "Chancellor of the Exchequer",
+      "Minister for War",
+      "Leader of the Opposition"
+    ],
+    "quest": "What Office Did Churchill Hold For The Longest Continous Period?",
+    "points": 10
+  },
+  {
+    
+    "answer": "Romeo and Juliet",
+    "false_choices": [
+      "Othello",
+      "Hamlet",
+      "King Lear"
+    ],
+    "quest": "What shakespearean play features the line: \"A plague on both your houses\"?",
+    "points": 10
+  },
+  {
+   
+    "answer": "Saga",
+    "false_choices": [
+      "Chronicle",
+      "Yerlig",
+      "Jordun"
+    ],
+    "quest": "What is an Icelandic epic called?",
+    "points": 10
+  },
+  {
+    
+    "answer": "Devo",
+    "false_choices": [
+      "MercyMe",
+      "Three 6 Mafia",
+      "The Velvet Underground",
+      "Rage Against the Machine",
+      "Switchfoot",
+      "Stone Sour"
+    ],
+    "quest": "The Lee Dorsey Song \"Working In A Coal Mine\" Was Later Covered By Which Quirky Band\"?",
+    "points": 10
+  }
+]
