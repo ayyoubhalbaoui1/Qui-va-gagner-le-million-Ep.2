@@ -39,12 +39,7 @@ body{
 	to {background-position: 500px 0;}
 }
 
-/* .line{
-  height: 426px;
-  width: .3px;
-  background-color: white;
-  margin-top: 100px;
-} */
+
 
 .forms-container, .group-container{
   height: 800px;
@@ -72,7 +67,7 @@ body{
   font-size: 60px;
   font-weight: bolder;
   font-family: Times, Times New Roman, Georgia, serif;
-  color: white;
+  color: azure;
 
 }
 
@@ -93,7 +88,6 @@ body{
   justify-content: space-around;
   align-items: center;
   height: 600px;
-  /* margin-left: 25%; */
 
 
 }
@@ -131,7 +125,7 @@ body{
   font-size: 100px;
   font-weight: bolder;
   font-family: Times, Times New Roman, Georgia, serif;
-  color: white;
+  color: azure;
 }
 
 .grp-code-title{
@@ -285,4 +279,6 @@ body{
 }
 .App {
   width: 128%;
+  
 }
+

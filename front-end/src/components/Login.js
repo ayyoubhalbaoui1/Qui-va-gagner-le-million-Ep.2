@@ -67,9 +67,9 @@ export default function Login() {
     const classes = useStyles();
     return (
         <div className="single-form-container">
-            <h1 className="title">Log in</h1>
+            <h1 className="title">Log in Form</h1>
             <div className="login-form">
-                <form className={classes.root} noValidate autoComplete="on"  onSubmit={handleSubmit(onSubmit)}>
+                <form id="FFORM" className={classes.root} noValidate autoComplete="on"  onSubmit={handleSubmit(onSubmit)}>
                     <TextField name="phone" label="Phone number" inputRef={register} variant="outlined" InputLabelProps={{
             classes: {
               root: classes.cssLabel,
@@ -99,9 +99,9 @@ export default function Login() {
             }
           }}/>
                     <Button variant="contained" color="inherit" type="submit">Log in</Button>
-                    <Button  variant="contained"  color="inherit" type="submit">Sign up</Button>
                 </form>
             </div>
+            
         </div>
     )
 }
