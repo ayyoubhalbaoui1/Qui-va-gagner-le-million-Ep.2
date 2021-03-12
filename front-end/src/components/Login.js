@@ -70,7 +70,7 @@ export default function Login() {
             <h1 className="title">Log in</h1>
             <div className="login-form">
                 <form className={classes.root} noValidate autoComplete="on"  onSubmit={handleSubmit(onSubmit)}>
-                    <TextField name="phone" label="Phone" inputRef={register} variant="outlined" InputLabelProps={{
+                    <TextField name="phone" label="Phone number" inputRef={register} variant="outlined" InputLabelProps={{
             classes: {
               root: classes.cssLabel,
               focused: classes.cssFocused,
@@ -99,6 +99,7 @@ export default function Login() {
             }
           }}/>
                     <Button variant="contained" color="inherit" type="submit">Log in</Button>
+                    <Button  variant="contained"  color="inherit" type="submit">Sign up</Button>
                 </form>
             </div>
         </div>

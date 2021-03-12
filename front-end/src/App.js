@@ -1,4 +1,5 @@
 import Forms from './components/Forms'
+import Register from './components/Register'
 import Group from './components/Group'
 import Lobby from './components/Lobby'
 import Game from './components/Game'
@@ -11,6 +12,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component={Forms}/>
+        <Route path="/SignUp" exact component={Register}/>
         <Route path="/Group" component={Group}/>
         <Route path="/Lobby" exact component={Lobby}/>
         <Route path="/Game" exact component={Game}/>

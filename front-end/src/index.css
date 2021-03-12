@@ -39,12 +39,12 @@ body{
 	to {background-position: 500px 0;}
 }
 
-.line{
+/* .line{
   height: 426px;
   width: .3px;
   background-color: white;
   margin-top: 100px;
-}
+} */
 
 .forms-container, .group-container{
   height: 800px;
@@ -93,6 +93,7 @@ body{
   justify-content: space-around;
   align-items: center;
   height: 600px;
+  /* margin-left: 25%; */
 
 
 }
