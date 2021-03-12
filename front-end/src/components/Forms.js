@@ -10,8 +10,7 @@ export default function Forms() {
         <div className="forms-container">
             <img src={logo} className="logo" alt="logo"/>
             <Login />
-            {/* <div className="line"></div> */}
-            {/* <SignUp /> */}
+          
         </div>
     )
 }

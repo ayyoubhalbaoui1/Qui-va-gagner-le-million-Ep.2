@@ -85,7 +85,7 @@ export default function SignUp() {
 
     return (
         <div className="single-form-container">
-        <h1 className="title">Register</h1>
+        <h1 className="title">Register form</h1>
         <div className="login-form">
             <form className={classes.root} noValidate autoComplete="off" onSubmit={handleSubmit(onSubmit)}>
                 <TextField name="full_name" label="Full name" variant="outlined" inputRef={register}  InputLabelProps={{

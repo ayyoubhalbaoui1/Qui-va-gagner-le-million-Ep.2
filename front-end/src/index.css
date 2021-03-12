@@ -44,8 +44,6 @@ body{
 .forms-container, .group-container{
   height: 800px;
   width: 1500px;
-  background-color: rgba(19, 110, 163, 0.7);
-  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -58,7 +56,7 @@ body{
 }
 .logo{
   position: absolute;
-    height: 120px;
+    height: 200px;
     width: auto;
     top: -66px;
 }
